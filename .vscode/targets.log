@@ -1,0 +1,307 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Mon Jun  6 22:50:40 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CPPFLAGS = -I/opt/homebrew/opt/openssl@1.1/include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/maximebonnesoeur/Workspace/interviews/data_engineering/42_matters
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+KAGGLE_USERNAME = peterbonnesoeur
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/vr/6kxtvt9n6yz7tshbttnfnxlr0000gn/T/vscode-ipc-58982be4-74c4-4c32-87fd-2eb5d07025e0.sock
+# environment
+VSCODE_CWD = /Users/maximebonnesoeur/Workspace/interviews/data_engineering/42_matters
+# environment
+PATH = /opt/homebrew/opt/openjdk@11/bin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/Cellar/pyenv-virtualenv/1.1.5/shims:/Users/maximebonnesoeur/.pyenv/shims:/Users/maximebonnesoeur/miniforge3/condabin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/Cellar/pyenv-virtualenv/1.1.5/shims:/Users/maximebonnesoeur/.pyenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/maximebonnesoeur/.cargo/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VIRTUAL_ENV = /Users/maximebonnesoeur/.pyenv/versions/3.10.1/envs/datascience
+# environment
+LaunchInstanceID = 929906EE-BB5D-43E5-B909-1C7A871EA4E9
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/maximebonnesoeur/.pyenv
+# environment
+LDFLAGS = -L/opt/homebrew/opt/openssl@1.1/lib -L/Users/maximebonnesoeur/.pyenv/versions/3.9.9/lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.24ixGySMFi/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/maximebonnesoeur/miniforge3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/maximebonnesoeur/Workspace/interviews/data_engineering/42_matters
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+KAGGLE_KEY = 9ab4b469916ab30159ddfae4fb62ccd7
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/maximebonnesoeur
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/maximebonnesoeur/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = maximebonnesoeur
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/maximebonnesoeur/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = maximebonnesoeur
+# makefile
+.DEFAULT_GOAL := make
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t2p0:ED30067E-1183-4F4D-B45D-3B1D26DEBD2C
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/vr/6kxtvt9n6yz7tshbttnfnxlr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/maximebonnesoeur/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.19708806.19708812.F16AD960-FED0-4898-9071-1A9267BCFA4A
+# environment
+LC_TERMINAL_VERSION = 3.4.15
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+ITERM_SESSION_ID = w0t2p0:ED30067E-1183-4F4D-B45D-3B1D26DEBD2C
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 7;0
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = ctrl-term
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+VIRTUAL_ENV_DISABLE_PROMPT = 1
+# environment
+CONDA_PYTHON_EXE = /Users/maximebonnesoeur/miniforge3/bin/python
+# environment
+PYENV_VIRTUAL_ENV = /Users/maximebonnesoeur/.pyenv/versions/3.10.1/envs/datascience
+# environment
+SECURITYSESSIONID = 186b4
+# environment
+P9K_TTY = old
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+_P9K_TTY = /dev/ttys004
+# environment
+VSCODE_PID = 44684
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=5/126=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 22202688): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-06 22:45:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+make:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 4):
+	wget https://s3.amazonaws.com/products-42matters/test/biographies.list.gz -O data/biographies.list.gz && \
+	wget https://github.com/WittmannF/imdb-tv-ratings/blob/master/top-250-movie-ratings.csv  -O data/top-250-movie-ratings.csv && \
+	docker build -t pyspark:latest -f Dockerfile .
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 10):
+	rm output/*
+	rm data/*
+	docker rmi -f pyspark
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
+# Finished Make data base on Mon Jun  6 22:50:40 2022
+
+ 
