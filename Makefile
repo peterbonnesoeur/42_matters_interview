@@ -1,8 +1,8 @@
 #build the dockerfile and download the required documents
 
 make:
-	wget https://s3.amazonaws.com/products-42matters/test/biographies.list.gz -O data/biographies.list.gz && \
-	wget https://raw.githubusercontent.com/WittmannF/imdb-tv-ratings/master/top-250-movie-ratings.csv  -O data/top-250-movie-ratings.csv && \
+	wget https://s3.amazonaws.com/products-42matters/test/biographies.list.gz -O data/biographies.list.gz
+	wget https://raw.githubusercontent.com/WittmannF/imdb-tv-ratings/master/top-250-movie-ratings.csv  -O data/top-250-movie-ratings.csv
 	docker build -t pyspark:latest -f Dockerfile .
 
 wordCount:
