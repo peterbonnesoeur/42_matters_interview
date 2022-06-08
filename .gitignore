@@ -3,4 +3,5 @@
 /data/*
 /output/*
 /ipynb_checkpoints
+notebooks/.ipynb_checkpoints
 .vscode
