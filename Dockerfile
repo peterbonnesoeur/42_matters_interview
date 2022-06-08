@@ -5,6 +5,10 @@ ARG IMAGE_VARIANT=slim-buster
 FROM python:${PYTHON_VERSION}-${IMAGE_VARIANT} AS py3
 FROM openjdk:${OPENJDK_VERSION}-${IMAGE_VARIANT}
 
+
+RUN apt-get update -y
+RUN apt-get install gcc -y
+
 COPY --from=py3 / /
 
 WORKDIR /app/
